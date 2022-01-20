@@ -4,6 +4,7 @@ import {
   TwitterTimelineEmbed,
   TwitterShareButton,
   TwitterTweetEmbed,
+  TwitterVideoEmbed,
 } from "react-twitter-embed";
 import SearchIcon from "@material-ui/icons/Search";
 
@@ -30,6 +31,10 @@ function Widgets() {
           sourceType="profile"
           screenName="NuclearRodBomb"
           options={{ height: 400 }}
+        />
+
+        <TwitterVideoEmbed
+            id={'1483272963419824130'}
         />
 
         <TwitterShareButton

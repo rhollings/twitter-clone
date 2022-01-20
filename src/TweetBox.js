@@ -12,12 +12,12 @@ function TweetBox() {
 
     db.collection("posts").add({
       displayName: "Richard Grayson",
-      username: "notnightwing",
+      username: "notNightwing",
       verified: true,
       text: tweetMessage,
       image: tweetImage,
       avatar:
-        "https://photos1.iorbix.com/00/00/00/00/01/88/86/10/Richard-Grayson-kmh4G2kjZ-b.jpg",
+        "https://i.ytimg.com/vi/Y8imNSyccwg/maxresdefault.jpg",
     });
 
     setTweetMessage("");
