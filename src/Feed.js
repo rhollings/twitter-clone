@@ -23,8 +23,9 @@ function Feed() {
       <TweetBox />
 
       <FlipMove>
-        {posts.map((post) => (
+        {posts.sort((a, b) => a.date > b.date ? -1 : 1).map((post) => (
           <Post
+            date={post.date}
             key={post.text}
             displayName={post.displayName}
             username={post.username}
